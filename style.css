@@ -85,68 +85,69 @@ p {
 
 
 @media screen and (max-width:900px) {
+
+
+    * {
+        text-align: center;
+    }
+
+
     .btn-menu {
         display: none;
     }
 
     .button-header {
-        position: relative;
-        margin: 0 400px 0 19rem;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+
 
     }
 
     h1 {
-        display: block;
-        font-weight: 700;
         font-size: 30px;
-        line-height: 30px;
-        color: #515151;
-        letter-spacing: 0.6px;
-        width: 278px;
+        position: fixed;
+        width: 280px;
         height: 60px;
-        text-align: center;
-        margin: -1.5rem 15rem 5rem 5rem;
-        position: static;
+        top: 8rem;
+        right: 15%;
+        line-height: normal;
     }
 
     p {
-        position: static;
-        font-family: Poppins;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 33px;
-        letter-spacing: 0.5px;
-        text-align: center;
+        position: fixed;
         width: 304px;
         height: 165px;
-       margin: auto;
+        top: 15rem;
+        left: 50px;
 
-
-    }
-
-    img {
-        position: absolute;
-        margin-top: 25rem;
-        margin-right: 200rem;
-        
-       
-    }
-
-    section {
-        display: block;
-        height: auto;
-        width: 100%;
-       
-
+        font-size: 14px;
     }
 
     .btn-more {
-        margin: 50px 140px;
+        position: fixed;
+        font-size: 18px;
         width: 112px;
         height: 27px;
-        top: -1051px;
-        left: 1267px;
+        top: 25rem;
+        left: 9rem;
+        border: none;
+        text-decoration: none;
+        outline: none;
+    }
 
+
+    main img {
+        position: fixed;
+        top: 28rem;
+        left: 2rem;
+        width: 312px;
+        height: 288px;
+        /* top: -965px;
+        left: 1167px; */
 
     }
+
+    section {}
+
 }
